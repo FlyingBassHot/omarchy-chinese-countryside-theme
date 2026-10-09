@@ -7,13 +7,13 @@ An [Omarchy](https://omarchy.org/) theme built around the colors of a rural suns
 ## Install
 
 ```bash
-omarchy theme install https://github.com/FlyingBassHot/omarchy-chinese-countrysid-theme.git
+omarchy theme install https://github.com/FlyingBassHot/omarchy-chinese-countryside-theme.git
 ```
 
 Then switch to it:
 
 ```bash
-omarchy theme set chinese-countrysid
+omarchy theme set chinese-countryside
 ```
 
 Cycle through backgrounds with `omarchy theme bg next`.
@@ -44,7 +44,7 @@ backgrounds/    # wallpapers, cycled with `omarchy theme bg next`
 Everything else — terminal colors, bar, notifications, lock screen, btop, editors, browser frame — is generated from `colors.toml` by Omarchy's templates when the theme is applied. To tweak the theme, edit `colors.toml` and re-apply:
 
 ```bash
-omarchy theme set chinese-countrysid
+omarchy theme set chinese-countryside
 ```
 
 ## Notes
@@ -56,4 +56,4 @@ omarchy theme set chinese-countrysid
 
 以乡村夕阳为灵感的主题：稻田的嫩芽绿、夕阳的暖橙、天空的天蓝。深色模式，正文用夕阳橙，强调色用嫩芽绿。
 
-修改方法：编辑 `colors.toml` 后运行 `omarchy theme set chinese-countrysid` 重新应用即可，其他所有应用（终端、状态栏、通知、锁屏、编辑器）的配色都会自动从它生成。
+修改方法：编辑 `colors.toml` 后运行 `omarchy theme set chinese-countryside` 重新应用即可，其他所有应用（终端、状态栏、通知、锁屏、编辑器）的配色都会自动从它生成。
